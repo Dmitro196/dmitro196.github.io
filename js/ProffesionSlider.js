@@ -30,7 +30,7 @@ $(document).ready(function(e) {
 		 
 		}
 if(hwNeedLinks){
-var $linkArrow = $('<a id="prewbuttonProff" href="#">&lt;</a><a id="nextbuttonProff" href="#">&gt;</a>')
+var $linkArrow = $('<a id="prewbuttonProff" href="#"></a><a id="nextbuttonProff" href="#"></a>')
 	.prependTo('#sliderProff');		
 	$('#nextbuttonProff').click(function(){
 		animSlide("next");
